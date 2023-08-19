@@ -5,6 +5,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px !important;
+  position: relative;
 }
 img {
   max-width: 100%;
@@ -38,4 +39,10 @@ img {
   100% {
     transform: rotate(360deg);
   }
+}
+#Enroll_box {
+  background: url(../img/enrroll-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
